@@ -1,0 +1,36 @@
+{
+  "name": "forkpipe",
+  "version": "1.0.0",
+  "description": "Yo!",
+  "scripts": {
+    "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --progress --profile --colors",
+    "watch": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/eslint/bin/eslint.js ./"
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.1.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helols/so-hello-world.git"
+  },
+  "keywords": [
+    "example"
+  ],
+  "author": "Yoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helols/so-hello-world/issues"
+  },
+  "homepage": "https://github.com/helols/so-hello-world#README"
+}
