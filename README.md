@@ -1,5 +1,5 @@
 # so-hello-world
 
-```sh
+```bash
 npm install && npm run build
 ```
